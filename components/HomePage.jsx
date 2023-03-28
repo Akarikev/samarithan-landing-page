@@ -19,9 +19,10 @@ const HomePage = () => {
           />
         </span>
         <nav className="flex flex-col ">
-          <h1 className=" text-gray-800 font-bold text-5xl text-center transition duration-100 transform hover:scale-110 cursor-pointer dark:text-gray-300">
+          <h1 className=" text-gray-800 font-bold text-5xl text-center transition duration-100 transform   cursor-pointer dark:text-gray-300">
             samarithan
           </h1>
+
           <ul className="flex justify-center content-center">
             <li className="flex justify-evenly gap-8">
               <Link href="/" className="text-center">
@@ -35,29 +36,32 @@ const HomePage = () => {
         </nav>
 
         <div className="mt-3 lg:px-40 md:px-30">
-          <h1 className="font-extrabold text-2xl sm:px-2 text-center  lg:text-4xl dark:text-gray-300">
+          <h2 className="font-medium border-emerald-500 border-2 w-fit px-2 py-1 rounded-3xl md:mx-auto mb-2 cursor-pointer hover:text-white hover:bg-emerald-500 duration-300 lg:mx-auto sm:mx-auto lg:mb-5 md:mb-4 dark:text-gray-300 ">
+            Introducing Sam
+          </h2>
+          <h1 className="font-extrabold text-2xl sm:px-2 md:text-center lg:text-center  sm:text-center  lg:text-4xl dark:text-gray-300">
             The Future of{" "}
             <span className="p-1 px-2 bg-green-400 text-white rounded-full">
               WhatsApp
             </span>
             {""} AI Technology
           </h1>
-          <div className="flex justify-center content-center pt-5 font-bold gap-9 transition-all duration-300 lg:mt-4 md:mt-4 mt-3">
+          <div className="flex justify-center content-center pt-5 font-bold gap-9 transition-all duration-300 lg:mt-4 md:mt-2 ">
             <Link
               href="https://wa.me/message/GGWYRLOO2377F1"
-              className="bg-green-600 text-gray-100 p-2 px-6 font rounded-lg hover:bg-white hover:text-gray-800  transition-all duration-300"
+              className="bg-green-600 border-2 hover:border-green-700 text-gray-100 p-2 px-6 font rounded-lg hover:bg-white hover:text-gray-800 w-full lg:w-fit md:w-fit transition-all text-center duration-300 dark:border-0"
             >
               Get Started
             </Link>
-            <div className="flex text-center gap-3 bg-red-600 text-gray-100 p-2 px-4 font rounded-lg cursor-pointer">
+            {/* <div className="flex text-center gap-3 bg-red-600 text-gray-100 p-2 px-4 font rounded-lg cursor-pointer">
               <AiOutlinePlayCircle className="h-6 w-5 text-center hover:rotate-180 transition-all duration-300" />
               <button className=" text-center ">Watch Demo</button>
-            </div>
+            </div> */}
           </div>
 
-          <p className="text-center leading-7 mt-4 px-5 text-gray-500 font-medium md:text-xl md:px-0 dark:text-gray-300">
+          <p className=" leading-7 mt-4 px-1 text-gray-500 font-medium md:text-center lg:text-center md:text-xl md:px-0 dark:text-gray-300">
             Meet{" "}
-            <span className="bg-black text-gray-100 p-1 rounded-md font-bold transition duration-100 transform hover:scale-125 cursor-pointer">
+            <span className="bg-black text-gray-100  rounded-md font-bold transition duration-100 transform hover:scale-125 cursor-pointer">
               Samarithan
             </span>{" "}
             or Sam, an <span className="underline">AI language model</span>{" "}
