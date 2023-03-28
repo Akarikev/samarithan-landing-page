@@ -9,6 +9,6 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#F6F1F1] text-gray-800 font-[inter] transition-all duration-200 ease-in-out;
+    @apply bg-[#F6F1F1] text-gray-800  transition-all duration-200 ease-in-out;
   }
 }
