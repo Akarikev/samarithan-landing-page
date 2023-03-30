@@ -19,7 +19,7 @@ const HomePage = () => {
           />
         </span>
         <nav className="flex flex-col ">
-          <h1 className=" text-gray-800 font-bold text-5xl text-center transition duration-100 transform   cursor-pointer dark:text-gray-300">
+          <h1 className=" text-gray-800 font-bold text-5xl text-center transition duration-100 transform lg:text-7xl md:text-6xl  cursor-pointer dark:text-gray-300">
             samarithan
           </h1>
 

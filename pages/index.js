@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <div className="min-h-screen flex flex-col overflow-hidden">
-        <BigHeader />
+        {/* <BigHeader /> */}
 
         {/* hHomePage */}
         <HomePage />
