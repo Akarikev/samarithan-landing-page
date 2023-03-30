@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import samarithan4 from "../images/samarithan4.jpg";
 import Link from "next/link";
+import Faqs, { Accordion } from "./Faqs";
 
 const Main = () => {
   return (
@@ -46,6 +47,13 @@ const Main = () => {
         >
           Get Started
         </Link>
+      </div>
+
+      <div className="mt-4 text-gray-900">
+        <h1 className="text-center underline ring-offset-1 dark:text-gray-300">
+          FAQs
+        </h1>
+        <Faqs />
       </div>
     </div>
   );

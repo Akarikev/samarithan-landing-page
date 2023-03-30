@@ -5,6 +5,13 @@
 html {
   scroll-behavior: smooth;
   height: 100%;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  scrollbar-color: rgb(156, 228, 156);
 }
 
 @layer base {
