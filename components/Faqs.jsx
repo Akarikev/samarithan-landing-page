@@ -12,20 +12,23 @@ function Faqs() {
         <AccordionItem value="item-1">
           <AccordionTrigger>Is it accessible?</AccordionTrigger>
           <AccordionContent>
-            Yes. It adheres to the WAI-ARIA design pattern.
+            Yes. Sam will be available for you to use for 24hrs, after that
+            you'd be asked to pay a $2 fee. It varies depending on your
+            location.
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger>Is it styled?</AccordionTrigger>
+          <AccordionTrigger>Would my data be protected?</AccordionTrigger>
           <AccordionContent>
-            Yes. It comes with default styles that matches the other components'
-            aesthetic.
+            Yes. Sam or otherwise Deadulus Inc do not access your data or any
+            information of you without consent. We believe in confidentiality
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger>Is it animated?</AccordionTrigger>
+          <AccordionTrigger>What are your payment options?</AccordionTrigger>
           <AccordionContent>
-            Yes. It's animated by default, but you can disable it if you prefer.
+            Depends on your location, but you should be able to pay through your
+            local payment options.
           </AccordionContent>
         </AccordionItem>
       </Accordion>

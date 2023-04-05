@@ -2,7 +2,6 @@ import Head from "next/head";
 
 import Footer from "@/components/Footer";
 import HomePage from "@/components/HomePage";
-import BigHeader from "@/components/BigHeader";
 
 export default function Home() {
   return (

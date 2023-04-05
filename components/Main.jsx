@@ -3,6 +3,7 @@ import Image from "next/image";
 import samarithan4 from "../images/samarithan4.jpg";
 import Link from "next/link";
 import Faqs, { Accordion } from "./Faqs";
+import Contact from "./contact";
 
 const Main = () => {
   return (
@@ -55,6 +56,8 @@ const Main = () => {
         </h1>
         <Faqs />
       </div>
+
+      <div>{/* <Contact /> */}</div>
     </div>
   );
 };

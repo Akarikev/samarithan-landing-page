@@ -6,11 +6,13 @@ import HeaderItem from "./HeaderItem";
 
 import { useState } from "react";
 import Main from "./Main";
+import ParticlesBg from "./ui/ParticlesBg";
 
 const HomePage = () => {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
+      <ParticlesBg />
       <div className="px-3 pt-4 dark:bg-slate-800">
         <span className="float-right ">
           <BiAdjust
